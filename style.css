@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+body{
+    background-color: #011F3F;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: #FEF2BF;
+}
+
+.simon-btn{
+    margin-top: 50px;
+}
+
+.btn{
+    width: 220px;
+    height: 220px;
+    border: 10px solid black;
+    border-radius: 15%;
+    margin: 20px;
+    display: inline-block;
+}
+
+.first{
+    background-color: green;
+}
+
+.second{
+    background-color: red;
+}
+
+.third{
+    background-color: yellow;
+}
+
+.fourth{
+    background-color: blue;
+}
+
+.pressed{
+    background-color: grey;
+    box-shadow: 0 0 20px white;
+}
+
+.game-over{
+    background-color: red;
+}
